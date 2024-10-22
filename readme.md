@@ -70,7 +70,7 @@ The `immich-go` program uses the Immich API. Hence it needs the server address a
 Boolean options have a default value indicated below. Mentioning any option on the common line changes the option to TRUE.
 To force an option to FALSE, use the following syntax: `-option=FALSE`.
 
-Example: Immich-go check the server's SSL certificate. you can disable this behavior by turning on the `skip-verify-ssl` option. Just add `-skip-verify-ssl`.
+Example: Immich-go checks the server's SSL certificate. you can disable this behavior by turning on the `skip-verify-ssl` option. Just add `-skip-verify-ssl`.
 `-skip-verify-ssl` is equivalent to `-skip-verify-ssl=TRUE`. To turn off the feature (which is the default behavior), use `-skip-verify-ssl=FALSE`
 
 ## Shared options with all commands
